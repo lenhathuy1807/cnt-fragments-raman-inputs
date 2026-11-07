@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+~$*
+
+# Gaussian outputs and checkpoints are not distributed
+*.chk
+*.fchk
+*.out
+*.log
+*.ap
+*.rwf
