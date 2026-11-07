@@ -1,0 +1,5 @@
+%oldchk=CNT_Raman.chk
+%chk=stability_b3lyp.chk
+%mem=9600MB
+#p B3LYP/6-311G(d,p) NoSymm Geom=AllCheck Guess=Read Stable=Opt SCF=(XQC,Tight,MaxCycle=512)
+

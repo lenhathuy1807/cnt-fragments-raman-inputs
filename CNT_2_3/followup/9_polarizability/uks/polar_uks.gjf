@@ -1,0 +1,4 @@
+%oldchk=../../2_wavefunction_stability/stability.chk
+%chk=polar_uks.chk
+#p UM062X/6-311G(d,p) NoSymm Geom=AllCheck Guess=Read Polar SCF=(XQC,Tight,MaxCycle=512)
+

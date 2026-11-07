@@ -1,0 +1,7 @@
+%oldchk=../../2_wavefunction_stability/stability.chk
+%chk=bond_order.chk
+%mem=9600MB
+#p M062X/6-311G(d,p) NoSymm Geom=AllCheck Guess=Read Pop=NBORead SCF=(XQC,Tight,MaxCycle=512)
+
+$NBO BNDIDX $END
+

@@ -1,0 +1,4 @@
+%oldchk=../4_opt2/opt2.chk
+%chk=stable.chk
+# M062X/6-311G** SCF(XQC,MaxCycle=512) Stable=Opt NoSymm Geom=AllCheck Guess=Read
+

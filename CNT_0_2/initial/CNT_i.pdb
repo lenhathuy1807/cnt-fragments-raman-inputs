@@ -1,0 +1,26 @@
+CRYST1  100.000  100.000   12.762  90.00  90.00  90.00 P 1           1
+ATOM      1  C   CNT X   1       0.868   0.000   0.000  0.00  0.00      TUB  C
+ATOM      2  C   CNT X   2       0.000   0.868   0.709  0.00  0.00      TUB  C
+ATOM      3  C   CNT X   3       0.000   0.868   2.127  0.00  0.00      TUB  C
+ATOM      4  C   CNT X   4      -0.868   0.000   2.836  0.00  0.00      TUB  C
+ATOM      5  C   CNT X   5      -0.868   0.000   0.000  0.00  0.00      TUB  C
+ATOM      6  C   CNT X   6      -0.000  -0.868   0.709  0.00  0.00      TUB  C
+ATOM      7  C   CNT X   7      -0.000  -0.868   2.127  0.00  0.00      TUB  C
+ATOM      8  C   CNT X   8       0.868  -0.000   2.836  0.00  0.00      TUB  C
+ATOM      9  C   CNT X   9       0.868   0.000   4.254  0.00  0.00      TUB  C
+ATOM     10  C   CNT X  10       0.000   0.868   4.963  0.00  0.00      TUB  C
+ATOM     11  C   CNT X  11       0.000   0.868   6.381  0.00  0.00      TUB  C
+ATOM     12  C   CNT X  12      -0.868   0.000   7.090  0.00  0.00      TUB  C
+ATOM     13  C   CNT X  13      -0.868   0.000   4.254  0.00  0.00      TUB  C
+ATOM     14  C   CNT X  14      -0.000  -0.868   4.963  0.00  0.00      TUB  C
+ATOM     15  C   CNT X  15      -0.000  -0.868   6.381  0.00  0.00      TUB  C
+ATOM     16  C   CNT X  16       0.868  -0.000   7.090  0.00  0.00      TUB  C
+ATOM     17  C   CNT X  17       0.868   0.000   8.508  0.00  0.00      TUB  C
+ATOM     18  C   CNT X  18       0.000   0.868   9.217  0.00  0.00      TUB  C
+ATOM     19  C   CNT X  19       0.000   0.868  10.635  0.00  0.00      TUB  C
+ATOM     20  C   CNT X  20      -0.868   0.000  11.344  0.00  0.00      TUB  C
+ATOM     21  C   CNT X  21      -0.868   0.000   8.508  0.00  0.00      TUB  C
+ATOM     22  C   CNT X  22      -0.000  -0.868   9.217  0.00  0.00      TUB  C
+ATOM     23  C   CNT X  23      -0.000  -0.868  10.635  0.00  0.00      TUB  C
+ATOM     24  C   CNT X  24       0.868  -0.000  11.344  0.00  0.00      TUB  C
+END

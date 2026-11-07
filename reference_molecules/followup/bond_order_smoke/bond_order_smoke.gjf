@@ -1,0 +1,85 @@
+%chk=c2h2.chk
+%mem=9600MB
+#p RM062X/6-311G(d,p) Opt SCF=(XQC,Tight,MaxCycle=512)
+
+c2h2 reference
+
+0 1
+C 0.000000 0.000000 0.600000
+C 0.000000 0.000000 -0.600000
+H 0.000000 0.000000 1.660000
+H 0.000000 0.000000 -1.660000
+
+--Link1--
+%chk=c2h2.chk
+%mem=9600MB
+#p M062X/6-311G(d,p) NoSymm Geom=AllCheck Guess=Read Pop=NBORead SCF=(XQC,Tight,MaxCycle=512)
+
+$NBO BNDIDX $END
+
+--Link1--
+%chk=c2h4.chk
+%mem=9600MB
+#p RM062X/6-311G(d,p) Opt SCF=(XQC,Tight,MaxCycle=512)
+
+c2h4 reference
+
+0 1
+C 0.000000 0.000000 0.665000
+C 0.000000 0.000000 -0.665000
+H 0.920000 0.000000 1.230000
+H -0.920000 0.000000 1.230000
+H 0.920000 0.000000 -1.230000
+H -0.920000 0.000000 -1.230000
+
+--Link1--
+%chk=c2h4.chk
+%mem=9600MB
+#p M062X/6-311G(d,p) NoSymm Geom=AllCheck Guess=Read Pop=NBORead SCF=(XQC,Tight,MaxCycle=512)
+
+$NBO BNDIDX $END
+
+--Link1--
+%chk=c6h6.chk
+%mem=9600MB
+#p RM062X/6-311G(d,p) Opt SCF=(XQC,Tight,MaxCycle=512)
+
+c6h6 reference
+
+0 1
+C 1.390000 0.000000 0.000000
+C 0.695000 1.203775 0.000000
+C -0.695000 1.203775 0.000000
+C -1.390000 0.000000 0.000000
+C -0.695000 -1.203775 0.000000
+C 0.695000 -1.203775 0.000000
+H 2.480000 0.000000 0.000000
+H 1.240000 2.147743 0.000000
+H -1.240000 2.147743 0.000000
+H -2.480000 0.000000 0.000000
+H -1.240000 -2.147743 0.000000
+H 1.240000 -2.147743 0.000000
+
+--Link1--
+%chk=c6h6.chk
+%mem=9600MB
+#p M062X/6-311G(d,p) NoSymm Geom=AllCheck Guess=Read Pop=NBORead SCF=(XQC,Tight,MaxCycle=512)
+
+$NBO BNDIDX $END
+
+--Link1--
+%oldchk=../bond_order_smoke/c2h2.chk
+%chk=smoke_triplet.chk
+%mem=9600MB
+#p UM062X/6-311G(d,p) NoSymm Geom=Check Guess=Read Stable=Opt SCF=(XQC,Tight,MaxCycle=512)
+
+c2h2 triplet route test
+
+0 3
+
+--Link1--
+%oldchk=../bond_order_smoke/c2h2.chk
+%chk=smoke_b3lyp.chk
+%mem=9600MB
+#p B3LYP/6-311G(d,p) NoSymm Geom=AllCheck Guess=Read Stable=Opt SCF=(XQC,Tight,MaxCycle=512)
+

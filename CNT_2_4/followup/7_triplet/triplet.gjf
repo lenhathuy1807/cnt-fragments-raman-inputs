@@ -1,0 +1,9 @@
+%oldchk=CNT_Raman.chk
+%chk=triplet.chk
+%mem=9600MB
+#p UM062X/6-311G(d,p) NoSymm Geom=Check Guess=Read Stable=Opt SCF=(XQC,Tight,MaxCycle=512)
+
+CNT_2_4 triplet at the Opt2 geometry
+
+0 3
+

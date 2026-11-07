@@ -1,0 +1,4 @@
+%oldchk=molecule.chk
+%chk=CNT_Raman.chk
+# M062X/6-311G** SCF(XQC,MaxCycle=512) Freq=Raman Geom=AllCheck Guess=Read
+

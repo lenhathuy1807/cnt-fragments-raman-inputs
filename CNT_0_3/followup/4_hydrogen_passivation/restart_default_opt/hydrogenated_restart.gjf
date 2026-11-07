@@ -1,0 +1,9 @@
+%chk=hydrogenated_restart.chk
+%mem=9600MB
+#p RM062X/6-311G(d,p) NoSymm Geom=AllCheck Guess=Read Opt=CalcFC Freq=Raman SCF=(XQC,Tight,MaxCycle=512)
+
+--Link1--
+%chk=hydrogenated_restart.chk
+%mem=9600MB
+#p M062X/6-311G(d,p) NoSymm Geom=AllCheck Guess=Read Stable=Opt SCF=(XQC,Tight,MaxCycle=512)
+
