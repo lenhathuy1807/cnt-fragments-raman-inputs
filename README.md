@@ -20,6 +20,6 @@ The (2,3) UKS polarizability input is included; the job terminated normally. The
 
 ## Access and reuse
 
-A license has not yet been selected by the authors; this deposit does not grant an open-source license. Gaussian software is not included and requires a separate license.
+The input files and coordinates in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0); see `LICENSE`. Gaussian software is not included and requires a separate license.
 
 To verify the files after download, run `shasum -a 256 -c MANIFEST.sha256` from the repository root.
